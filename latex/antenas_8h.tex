@@ -1,0 +1,65 @@
+\doxysection{antenas.\+h File Reference}
+\hypertarget{antenas_8h}{}\label{antenas_8h}\index{antenas.h@{antenas.h}}
+
+
+Definições de estruturas e constantes para manipulação de antenas.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structAntena}{Antena}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa uma antena. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structMatriz}{Matriz}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa a matriz do mapa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{antenas_8h_ab44f6d43935e7b204b295865fc8c1edc}\label{antenas_8h_ab44f6d43935e7b204b295865fc8c1edc} 
+\#define {\bfseries MAX\+\_\+\+LINHAS}~100
+\item 
+\Hypertarget{antenas_8h_ad624bf76d9366faecf9041ef6ffffcb9}\label{antenas_8h_ad624bf76d9366faecf9041ef6ffffcb9} 
+\#define {\bfseries MAX\+\_\+\+COLUNAS}~100
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{antenas_8h_a843ab8b81393e8ebb3eb6b76e349acc2}\label{antenas_8h_a843ab8b81393e8ebb3eb6b76e349acc2} 
+typedef struct \mbox{\hyperlink{structAntena}{Antena}} {\bfseries Antena}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structAntena}{Antena}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{antenas_8h_a5d3afa12e553a321b63843bf0048b174}{inserir\+Antena}} (\mbox{\hyperlink{structAntena}{Antena}} \texorpdfstring{$\ast$}{*}lista, char frequencia, int x, int y)
+\begin{DoxyCompactList}\small\item\em Insere uma nova antena na lista ligada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definições de estruturas e constantes para manipulação de antenas. 
+
+Este ficheiro contém a definição das estruturas utilizadas para representar antenas e a matriz do mapa, além de constantes de tamanho máximo. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{antenas_8h_a5d3afa12e553a321b63843bf0048b174}\label{antenas_8h_a5d3afa12e553a321b63843bf0048b174} 
+\index{antenas.h@{antenas.h}!inserirAntena@{inserirAntena}}
+\index{inserirAntena@{inserirAntena}!antenas.h@{antenas.h}}
+\doxysubsubsection{\texorpdfstring{inserirAntena()}{inserirAntena()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structAntena}{Antena}} \texorpdfstring{$\ast$}{*} inserir\+Antena (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structAntena}{Antena}} \texorpdfstring{$\ast$}{*}}]{lista,  }\item[{char}]{frequencia,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Insere uma nova antena na lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & Apontador para a lista de antenas. \\
+\hline
+{\em frequencia} & Característica da antena. \\
+\hline
+{\em x} & Posição X da antena. \\
+\hline
+{\em y} & Posição Y da antena. \\
+\hline
+\end{DoxyParams}

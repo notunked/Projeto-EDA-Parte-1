@@ -1,0 +1,26 @@
+\doxysection{antenas.\+h}
+\hypertarget{antenas_8h_source}{}\label{antenas_8h_source}\mbox{\hyperlink{antenas_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ ANTENAS\_H}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ ANTENAS\_H}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ MAX\_LINHAS\ 100}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ MAX\_COLUNAS\ 100}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structAntena}{Antena}}\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{structAntena_a98d94cd90b6d9288fc867dbe7a6b6f41}{frequencia}};\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ x,\ \mbox{\hyperlink{structAntena_a7166c31d6fd9c3607b300ee0dc6371ba}{y}};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structAntena}{Antena}}\ *\mbox{\hyperlink{structAntena_a6469f22ec7999b3c664c703ab46d7a1d}{proximo}};\ }
+\DoxyCodeLine{00028\ \}\ \mbox{\hyperlink{structAntena}{Antena}};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{char}\ matrizchar[MAX\_LINHAS][MAX\_COLUNAS];\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{int}\ linhas,\ \mbox{\hyperlink{structMatriz_a6e5e0e3b5fc330fbe6ea8d83657e0ee5}{colunas}};\ }
+\DoxyCodeLine{00041\ \}\ \mbox{\hyperlink{structMatriz}{Matriz}};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00050\ \mbox{\hyperlink{structAntena}{Antena}}\ *\mbox{\hyperlink{antenas_8h_a5d3afa12e553a321b63843bf0048b174}{inserirAntena}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista,\ \textcolor{keywordtype}{char}\ frequencia,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

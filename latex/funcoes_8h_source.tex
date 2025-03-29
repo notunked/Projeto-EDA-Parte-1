@@ -1,0 +1,33 @@
+\doxysection{funcoes.\+h}
+\hypertarget{funcoes_8h_source}{}\label{funcoes_8h_source}\mbox{\hyperlink{funcoes_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#ifndef\ FUNCOES\_H}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ FUNCOES\_H}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{antenas_8h}{antenas.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#define\ MAX\_LINHAS\ 100}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ MAX\_COLUNAS\ 100}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ \{}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ x,\mbox{\hyperlink{structPosicaoNefasta_a9f0336a69a0499f3d03a196c13c968e3}{y}};\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ *\mbox{\hyperlink{structPosicaoNefasta_a21536ffe9d1014cd519163fa5ec9c48f}{proximo}};\ }
+\DoxyCodeLine{00031\ \}\ \mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}};}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{comment}{//\ Declaração\ das\ funções\ auxiliares}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \mbox{\hyperlink{structAntena}{Antena}}\ *\mbox{\hyperlink{funcoes_8h_a19332fe3b18481a16b5127243164f839}{carregarAntenas}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista,\ \textcolor{keywordtype}{int}\ *linhas,\ \textcolor{keywordtype}{int}\ *colunas,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *nomeFicheiro);}
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_aeada878fd634422b85ebdb1fcd29b107}{limparLista}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista);}
+\DoxyCodeLine{00037\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_ab4daf968b49d14c5639b57bcec8d5ebc}{imprimirAntenas}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista);}
+\DoxyCodeLine{00038\ \mbox{\hyperlink{structAntena}{Antena}}\ *\mbox{\hyperlink{funcoes_8h_a288b0f9814a549d8fed997f0654042a9}{removerAntena}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structPosicaoNefasta_a9f0336a69a0499f3d03a196c13c968e3}{y}},\ \textcolor{keywordtype}{char}\ *nomeFicheiro,\ \textcolor{keywordtype}{int}\ linhas,\ \textcolor{keywordtype}{int}\ colunas);}
+\DoxyCodeLine{00039\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_aa843bb87ada2f44567228d2deb350413}{carregarMatriz}}(\mbox{\hyperlink{structMatriz}{Matriz}}\ *matriz,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *nomeFicheiro);}
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{funcoes_8h_a644b50610be35d1c0c41a29b37032f4d}{existePosicao}}(\mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ *lista,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structPosicaoNefasta_a9f0336a69a0499f3d03a196c13c968e3}{y}});}
+\DoxyCodeLine{00041\ \mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ *\mbox{\hyperlink{funcoes_8h_ab82708f423920318badc25ecc942ff3b}{detectarLocaisNefastos}}(\mbox{\hyperlink{structAntena}{Antena}}\ *lista);}
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_a930f63747195a5c73833a05be6c86354}{imprimirPosicoesNefastas}}(\mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ *lista);}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_a97cbff75cd24204c25823a9534954a89}{limparListaNefasta}}(\mbox{\hyperlink{structPosicaoNefasta}{PosicaoNefasta}}\ *lista);}
+\DoxyCodeLine{00044\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{funcoes_8h_a734f271e78512679df29cc8dbd96d867}{atualizarFicheiro}}(\mbox{\hyperlink{structAntena}{Antena}}*lista,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *nomeFicheiro,\ \textcolor{keywordtype}{int}\ linhas,\ \textcolor{keywordtype}{int}\ colunas);}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
